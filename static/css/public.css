@@ -1,0 +1,271 @@
+.header{
+    height: 45px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    min-width: 1000px;
+}
+.location{
+    display: inline-block;
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+.headerlist{
+    display:inline-block;
+    width: 500px;
+    height: 45px;
+    float: right;
+}
+.headerlisttable{
+    display: inline-block;
+    text-align: center;
+}
+.headerlisttable a{
+    color: white;
+    text-decoration: none;
+}
+.headerlisttable td{
+    display: inline-block;
+    width:100px;
+    height:20px;
+    margin-top: 13px;
+}
+.headerimg{
+    width: 35px;
+    height:35px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+    margin: 5px 30px;
+}
+.headerlisttable2 td{
+    width:80px;
+    font-size:18px;
+}
+.headerlisttable2 a{
+    display: inline-block;
+    height:100%;
+    width: 55%;
+    text-align: center;
+    color: #9A9A9A;
+    text-decoration:none;
+}
+.headerlist2{
+    background-color:#FAFAFA;
+    line-height: 60px;
+    font-weight: bold;
+    min-width: 1150px;
+}
+.active{
+    border-bottom: 3px solid #12CFF6;
+}
+.headerlisttable .active2{
+   color: #15B6DA;
+}
+.footer{
+    position: relative;
+    bottom:0;
+    height: 40px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-top: 1px solid #F7F7F7;
+    text-align: center;
+    line-height: 40px;
+    min-width: 1024px;
+}
+.amount{
+    display: inline-block;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    color: black;
+    line-height: 25px;
+    text-align:center;
+}
+.amount :first-child{
+    display: inline-block;
+    background-color: white;
+    width: 30px;height: 30px;
+    color: black;
+    text-align:center;
+    margin:15px 10px;
+}
+.bg{
+    width:1024px;
+    margin:40px auto;
+    font-size: 14px;
+    min-height: 768px;
+}
+.companybg{
+    width: 1200px;
+}
+.gray{
+  color: #BABABA;
+}
+.urgent{
+    width: 0;
+    height: 0;
+    border-top: 50px solid #ED6F09;
+    border-left: 50px solid transparent;
+    float: right;
+    margin-top: -86px;
+}
+.urgentfont{
+    float: right;
+    margin-top: -45px;
+    margin-right:10px;
+    color:white;
+}
+.reward{
+    color: #F7D188;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.company{
+    font-weight:bold;
+    font-size: 17px;
+}
+.shadowlist{
+    box-shadow:0 5px 3px #E3E3E3;
+    width:100%;
+    margin:0px auto 20px auto;
+    padding-bottom: 10px;
+}
+.salary2{
+    color: #F1B186;
+    font-size: 17px;
+
+}
+.indexsearchinput{
+    height: 40px;
+    width: 490px;
+    padding-left: 15px;
+    border: 2px solid #0BBFEF;
+}
+.indexsearch{
+    display: inline-block;
+    width: 120px;
+    background-color: #0BBFEF;
+    height:40px;
+    position: relative;
+    top:-7px;
+    text-align: center;
+    margin-left: -5px;
+}
+.indexsearch span{
+    position: relative;
+    top:9px;
+    color: white;
+    font-size: 18px;
+}
+.guanzhu{
+    color:#33D0EF;
+    padding: 0 5px;
+    float: right;
+    background-color: white;
+    border: 1px solid #33D0EF;
+    border-radius: 5px;
+    text-align: center;
+}
+.yiguanzhu{
+    color:#999999;
+    padding: 0 5px;
+    float: right;
+    background-color: white;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    text-align: center;
+}
+.yidingyue{
+    width: 850px;
+    height: 50px;
+    background-color: #F5F5F5;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 50px;
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+.companyname{
+    font-size: 20px;
+    font-weight: bold
+}
+.companyguimo{
+    position: relative;
+    left: 30px;
+    margin-bottom:8px;
+}
+.inside_rightnav{
+    width:200px;
+    float: right;
+    display: inline-block;
+    margin-right: 80px;
+}
+.history2{
+    background-color: #FAFAFA;
+    height: 160px;
+    padding: 10px;
+    text-indent: 1em;
+}
+.historylist{
+    height: 100px;
+    background-color:white;
+    margin-top: 10px;
+    padding-top: 14px;
+}
+.rightnavlist{
+    background-color:#FAFAFA;
+    height: 500px;
+    margin-top: 10px;
+    padding: 40px 10px;
+}
+.joblist{
+
+    margin-left: 20px;
+}
+.joblist span{
+    display: inline-block;
+    margin-right: 20px;margin-top: 10px;
+}
+.jobname{
+    color: #14CEF4;
+    font-size: 18px;
+}
+.noactive:hover{
+    color: #555;
+    text-decoration:none;
+}
+.shoucangimage{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+.listavatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.graysmallest{
+    color: #A3A3A3;
+    font-size:12px;
+    font-weight: normal;
+    margin-right: 10px;
+}
+.huati{
+    background-color: white;
+    border-radius: 20px;
+    padding: 0 10px;
+    margin-right: 10px;
+    color: #b1b1b1;
+}
+.modal-dialog{
+    margin:200px auto;
+}
+.modal-header{
+    border-bottom: none;
+}

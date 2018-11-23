@@ -1,0 +1,21 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -29,14 +29,14 @@
+   <script>
+   
+  //var HOST = 'http://139.224.129.236:8080/'                  
+- var HOST ='http://www.miruohz.com:9889/'  //正式服
+- //var HOST ='http://192.168.0.148:9889/'
++ //var HOST ='http://www.miruohz.com:9889/'  //正式服
++ //var HOST ='http://192.168.0.173:9889/'
+    //var HOST = 'http://118.31.40.131:8080'
+  // var HOST = 'http://192.168.0.149:9009/'
+  //var HOST = 'http://116.62.117.217:8080/'  //正式服
+- //var HOST = 'http://47.100.33.4:9889/'  //测试服
+-  var URL='http://www.miruohz.com/'
+-  //var URL='http://47.100.33.4:8080'
++ var HOST = 'http://47.100.33.4:9889/'  //测试服
++  //var URL='http://www.miruohz.com/'
++  var URL='http://47.100.33.4:8080'
+   // var URL='https://oes.ebhtec.com:8089'
+ 
+   </script>
